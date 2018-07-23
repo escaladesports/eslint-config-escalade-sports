@@ -11,6 +11,7 @@
     "eslintconfig"
   ],
   "scripts": {
+    "test": "echo 'No test'",
     "travis": "opn https://travis-ci.org/escaladesports/eslint-config-escalade-sports/branches"
   },
   "peerDependencies": {
