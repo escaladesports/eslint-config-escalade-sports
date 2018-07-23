@@ -1,0 +1,34 @@
+# System generated files
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Development/Environment
+.env
+.env.*
+dist
+dist-*
+.next
+json
+public
+.cache
+envdotjs-key
+env.js
+.serverless
+_optimize
+.babelrc
+.postcssrc
+./gatsby-node.js
+./gatsby-browser.js
+./gatsby-ssr.js
+_book
+
+# Temporary
+temp
+temp-*
