@@ -1,44 +1,54 @@
 module.exports = {
 	parser: 'babel-eslint',
-	extends: 'eslint:recommended',
+	extends: [
+		'eslint:recommended',
+		'plugin:react/recommended',
+	],
 	env: {
 		es6: true,
 		node: true
 	},
 	settings: {
-		'import/core-modules': ['styled-jsx', 'styled-jsx/css']
+		'import/core-modules': [
+			'styled-jsx',
+			'styled-jsx/css',
+		]
 	},
 	parserOptions: {
 		ecmaFeatures: {
-			jsx: true
+			jsx: true,
 		},
 		ecmaVersion: 2018,
-		sourceType: 'module'
+		sourceType: 'module',
 	},
 	plugins: [
-		'react'
+		'react',
 	],
+	globals: {
+		graphql: true,
+	},
 	rules: {
 		indent: [
 			'error',
-			'tab'
+			'tab',
 		],
 		'linebreak-style': [
 			'error',
-			'unix'
+			'unix',
 		],
 		quotes: [
 			'error',
-			'backtick'
+			'backtick',
 		],
 		semi: [
 			'error',
-			'never'
+			'never',
 		],
 		'comma-dangle': [
 			'error',
 			'always-multiline',
 		],
 		'no-console': 0,
-	}
+		'react/prop-types': 0,
+	},
 }
