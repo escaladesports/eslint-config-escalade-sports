@@ -49,6 +49,7 @@ module.exports = {
 			'always-multiline',
 		],
 		'no-console': 0,
+		'react/jsx-uses-vars': 1,
 		'react/prop-types': 0,
 	},
 }
