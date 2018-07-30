@@ -27,6 +27,7 @@ module.exports = {
 	globals: {
 		graphql: true,
 		window: true,
+		document: true,
 	},
 	rules: {
 		indent: [
