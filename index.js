@@ -23,6 +23,7 @@ module.exports = {
 	},
 	plugins: [
 		'react',
+		'jest',
 	],
 	globals: {
 		graphql: true,
