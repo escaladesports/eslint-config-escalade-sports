@@ -55,5 +55,6 @@ module.exports = {
 		'no-console': 0,
 		'react/jsx-uses-vars': 1,
 		'react/prop-types': 0,
+		'react/no-unescaped-entities': 0,
 	},
 }
