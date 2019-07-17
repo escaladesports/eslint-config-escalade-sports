@@ -56,5 +56,6 @@ module.exports = {
 		'react/jsx-uses-vars': 1,
 		'react/prop-types': 0,
 		'react/no-unescaped-entities': 0,
+		'react/display-name': 0,
 	},
 }
