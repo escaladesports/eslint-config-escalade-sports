@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-escalade-sports",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "main": "index.js",
   "author": "Kennedy Rose <krose@escaladesports.com>",
   "license": "MIT",
