@@ -3,5 +3,5 @@
 ## Usage
 
 ```bash
-	yarn add -D eslint-config-escalade-sports
+    yarn add -D eslint-config-escalade-sports
 ```
