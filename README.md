@@ -1,7 +1,15 @@
 # Escalade Sports Eslint Config
 
-## Usage
+### Install
 
 ```bash
 	yarn add -D eslint-config-escalade-sports
+```
+
+### Usage
+Inside of `.eslintrc`
+```json
+	{
+		"extends": "escalade-sports",
+	}
 ```
